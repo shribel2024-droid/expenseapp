@@ -1,0 +1,23 @@
+main.py
+│
+├── Imports
+├── Kivy Configuration
+├── Theme Manager
+├── Main Application Class
+├── Dashboard Screen
+├── Add Expense Screen
+├── Edit Expense Screen
+├── Search Expense Screen
+├── Reports Screen
+├── Charts Screen
+├── Budget Screen
+├── Backup Screen
+├── Settings Screen
+├── Export Screen
+├── Navigation Drawer
+├── Menu Bar
+├── Status Bar
+├── Popup Dialogs
+├── Error Handling
+├── App Initialization
+└── Main Entry Point

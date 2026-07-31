@@ -1,0 +1,23 @@
+DailyExpense/
+│
+├── main.py
+├── database.py
+├── expense.py
+├── report.py
+├── charts.py
+├── backup.py
+├── settings.py
+├── utils.py
+├── requirements.txt
+├── buildozer.spec
+│
+├── database/
+│      expenses.db
+│
+├── assets/
+│      icon.png
+│      splash.png
+│
+└── .github/
+       └── workflows/
+              build.yml

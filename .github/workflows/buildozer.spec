@@ -16,15 +16,15 @@ requirements = python3,kivy,openpyxl,reportlab,matplotlib
 orientation = portrait
 
 
+android.permissions =
+    INTERNET,
+    WRITE_EXTERNAL_STORAGE,
+    READ_EXTERNAL_STORAGE
+
+
 android.api = 35
 
 android.minapi = 23
 
 
-android.archs = arm64-v8a
-
-
-android.permissions =
-    INTERNET,
-    READ_EXTERNAL_STORAGE,
-    WRITE_EXTERNAL_STORAGE
+android.archs = arm64-v8a, armeabi-v7a

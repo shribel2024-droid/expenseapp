@@ -1,0 +1,18 @@
+from backup import BackupManager
+
+backup = BackupManager()
+
+success, message = backup.create_backup()
+
+print(success)
+print(message)
+
+print()
+
+print(backup.list_backups())
+
+print()
+
+for item in backup.backup_information():
+
+    print(item)
